@@ -72,5 +72,5 @@ if __name__ == '__main__':
                 file_changed = True
 
     if file_changed:
-        workbook.save(filename="dealers.xlsx")
+        workbook.save(filename=dealers_file_name)
 
